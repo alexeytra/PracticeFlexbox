@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body, html, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navRow {
+    display: flex;
+    font-size: 1.5em
+}
+
+.navRow ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.navRow ul li {
+    flex: 1
+}
+
+.navRow #navLogo {
+    flex: 2;
+    font-weight: bold;
+}
+
+.featuredItemBox { 
+    display: flex;
+}
